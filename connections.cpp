@@ -16,15 +16,15 @@ Connections::~Connections()
 
 void Connections::on_pushButton_clicked()
 {
-    QString login = ui->login->text();
+    QString login_2 = ui->login_2->text();
     QString password = ui->password->text();
-    QString host_name = ui->host_name->text();
-    QString db_name = ui->db_name->text();
-    uint connection_port = ui->connection_port->text().toInt();
+    QString host_name_2 = ui->host_name_2->text();
+    QString db_name_2 = ui->db_name_2->text();
+    uint connection_port_2 = ui->connection_port_2->text().toInt();
 
-QString loginR="asd";
 
-    if(login == loginR)
+//if(connection_port_2 == 123)
+    if(password == "asd")
 
         {
          QMessageBox::information(this, "Connecting", "You connect!");
